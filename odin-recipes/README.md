@@ -1,0 +1,1 @@
+This project is just an exercise from the Odin Project for HTML. At the end of this project you will see a site, mostly in HTML with little to none CSS applied to it. The exercise asks us to develop a multi pages site to display cooking recipes given to us previously.
