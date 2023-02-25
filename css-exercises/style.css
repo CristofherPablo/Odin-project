@@ -1,0 +1,16 @@
+/* Set Up for multiples exercises */
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    width: 600px;
+    height: 100%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+/* Exercise number 1 */
