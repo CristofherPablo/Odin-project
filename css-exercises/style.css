@@ -1,89 +1,89 @@
 /* Set Up for multiples exercises */
-body{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(80, 81, 81);
-    color: aliceblue;
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(80, 81, 81);
+  color: aliceblue;
 }
 
-section{
-    width: 600px;
-    height: 100%;
-    border: 1px solid black;
-    margin: auto;
+section {
+  width: 600px;
+  height: 100%;
+  border: 1px solid black;
+  margin: auto;
 }
 
 /* Exercise number 1 */
-.red{
-    background-color: red;
-    color: aliceblue;
+.red {
+  background-color: red;
+  color: aliceblue;
 }
 
 /* Exercises number 2 */
 
-.salmon{
-    background-color: #ffa7a7;
-    color: rgb(15, 14, 12);
-    font-family: Verdana, sans-serif;
+.salmon {
+  background-color: #ffa7a7;
+  color: rgb(15, 14, 12);
+  font-family: Verdana, sans-serif;
 }
 
-.salmon.font-bolder{
-    font-size: 24px;
+.salmon.font-bolder {
+  font-size: 24px;
 }
 
-#blue{
-    color: blue;
-    font-size: 36px;
+#blue {
+  color: blue;
+  font-size: 36px;
 }
 
-#light-green{
-    background-color: #80ff80;
-    font-size: 24px;
-    font-weight: bolder;
-    color: black;
+#light-green {
+  background-color: #80ff80;
+  font-size: 24px;
+  font-weight: bolder;
+  color: black;
 }
 
 /* Third exercises */
 
-.third-exercises button{
-    font-size: 28px;
-    font-family: Helvetica, 'Times New Roman', sans-serif;
+.third-exercises button {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
 }
 
-.third-exercises .black{
-    background-color: black;
-    color: azure;
+.third-exercises .black {
+  background-color: black;
+  color: azure;
 }
 
-.third-exercises .yellow{
-    background-color: yellow;
+.third-exercises .yellow {
+  background-color: yellow;
 }
 
 /* Fourth Exercise */
 
-.avatar.proportioned{
-    width: 300px;
-    height: 300px;
+.avatar.proportioned {
+  width: 300px;
+  height: 300px;
 }
 
-.avatar.distorted{
-    width: 200px;
-    height: 400px;
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
 }
 
-.original{
-    width: 250px;
+.original {
+  width: 250px;
 }
 
 /* Fifth Exercise */
 
-.container .text{
-    background-color: yellow;
-    color: red;
-    font-size: 20px;
-    text-align: center;
+.container .text {
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
 }
 
 /* Sixth and last Exercises */
@@ -107,7 +107,7 @@ section{
   background: green;
   color: white;
   font-weight: bold;
-} 
+}
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -125,4 +125,77 @@ div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+/* Exercise of box and sizing  */
+/* Margin and Padding #1 */
+
+.one,
+.two,
+.three {
+  color: black;
+}
+.one {
+  background: pink;
+  border: 3px solid blue;
+  /* CHANGE ME */
+  padding: 32px;
+  margin: 12px;
+}
+
+.two {
+  background: lightblue;
+  border: 3px solid purple;
+  /* CHANGE ME */
+  margin-bottom: 48px;
+}
+
+.three {
+  background: peachpuff;
+  border: 3px solid brown;
+  width: 200px;
+  /* CHANGE ME */
+  padding: 32px;
+  margin-left: 330px;
+}
+
+/* Margin and Padding #2 */
+
+.margin-padding{
+  color: black;
+}
+
+.card {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.title {
+  background: #e3f4ff;
+  margin: 0;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.content {
+  background: #e3f4ff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 16px;
+}
+
+.button-container {
+  background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  margin: auto;
+  padding: 8px 24px;
 }
