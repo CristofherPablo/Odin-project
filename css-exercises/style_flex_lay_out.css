@@ -30,6 +30,10 @@ input {
 }
 
 /* Adding Stuff from here-----------------------------*/
+body{ 
+    display: flex;
+    flex-direction: column;
+}
 
 .header{
     display: flex;
@@ -55,6 +59,7 @@ input {
 }
 
 .content{
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,9 +72,7 @@ input {
     align-items: center;
     background-color: #eeeeee;
 
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    
 }
 
 .footer .left-links{
