@@ -7,6 +7,7 @@ body{
 section{
     width: 800px;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 /* Flex Exercises 01 */
@@ -29,3 +30,49 @@ section{
     width: 80px;
     height: 80px;
   }
+
+  /* Align Header */
+
+  
+.header  {
+    font-family: monospace;
+    background: papayawhip;
+
+    /*Change here*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+    /*Change here*/
+    padding: 0px 30px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    /*Change here*/
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
+  
