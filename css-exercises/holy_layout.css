@@ -62,6 +62,10 @@ body{
   padding: 0;
 }
 
+.sidebar ul li{
+  margin-bottom: 16px;
+}
+
 .sidebar ul li a{
   color: white;
   font-size: 24px;
@@ -86,6 +90,7 @@ article .card{
   width: 30%;
   flex-grow: 1;
   max-width: 270px;
+  min-width: 203px;
   padding: 15px;
 }
 
