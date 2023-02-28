@@ -1,83 +1,82 @@
-body{
-    padding: 0;
-    margin: 0;
-    align-items: center;
+body {
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
 
-section{
-    margin: auto;
-    margin-bottom: 20px;
+section {
+  margin: auto;
+  margin-bottom: 20px;
 }
 
 /* Flex Exercises 01 ---------------------------------*/
 .container {
-    background: dodgerblue;
-    border: 4px solid midnightblue;
-    width: 400px;
-    height: 300px;
-    /* Align this item center*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .box {
-    background: palevioletred;
-    font-weight: bold;
-    text-align: center;
-    border: 6px solid maroon;
-    width: 80px;
-    height: 80px;
-  }
+  background: dodgerblue;
+  border: 4px solid midnightblue;
+  width: 400px;
+  height: 300px;
+  /* Align this item center*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  /* Align Header 01 ----------------------------------*/
+.box {
+  background: palevioletred;
+  font-weight: bold;
+  text-align: center;
+  border: 6px solid maroon;
+  width: 80px;
+  height: 80px;
+}
 
-  
-.header-01 .header  {
-    font-family: monospace;
-    background: papayawhip;
+/* Align Header 01 ----------------------------------*/
 
-    /*Change here*/
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-  }
-  
-  .header-01 .logo {
-    font-size: 48px;
-    font-weight: 900;
-    color: tomato;
-    background: white;
-    padding: 4px 32px;
-    /*Change here*/
-    padding: 0px 30px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .header-01 ul {
-    /* this removes the dots on the list items*/
-    list-style-type: none;
-    /*Change here*/
-    display: flex;
-    gap: 10px;
-    margin-right: 30px;
-  }
-  
-  .header-01 a {
-    font-size: 22px;
-    background: white;
-    padding: 8px;
-    /* this removes the line under the links */
-    text-decoration: none;
-  }
+.header-01 .header {
+  font-family: monospace;
+  background: papayawhip;
 
-  /* Align Header 02 ------------------------------- */
+  /*Change here*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
 
-  @import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+.header-01 .logo {
+  font-size: 48px;
+  font-weight: 900;
+  color: tomato;
+  background: white;
+  padding: 4px 32px;
+  /*Change here*/
+  padding: 0px 30px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-01 ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  /*Change here*/
+  display: flex;
+  gap: 10px;
+  margin-right: 30px;
+}
+
+.header-01 a {
+  font-size: 22px;
+  background: white;
+  padding: 8px;
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+/* Align Header 02 ------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap");
 
 .header-02 {
   margin: 0;
@@ -88,16 +87,16 @@ section{
 .header-02 .header {
   background: white;
   border-bottom: 1px solid #ddd;
-  box-shadow: 0 0 8px rgba(0,0,0,.1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   /* Changes Here*/
-    display: flex;
-    align-items: center;
-    padding: 0px 8px;
+  display: flex;
+  align-items: center;
+  padding: 0px 8px;
 }
 
 .header-02 .profile-image {
   background: rebeccapurple;
-  box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -135,41 +134,135 @@ section{
   display: flex;
 }
 
-.header-02 ul li{
-    margin: 16px;
+.header-02 ul li {
+  margin: 16px;
 }
-  
-/* Flex Information -----------------------------------*/
-.information{
-    font-family: 'Courier New', Courier, monospace;
 
-    /* Changes Here*/
-    margin-top:20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Flex Information -----------------------------------*/
+.information {
+  font-family: "Courier New", Courier, monospace;
+
+  /* Changes Here*/
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .information img {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .information .title {
-    font-size: 36px;
-    font-weight: 900;
-    
-    /* Changes Here*/
-    margin-bottom: 32px;
-  }
+  width: 100px;
+  height: 100px;
+}
 
-  .wrapper-ex04{
+.information .title {
+  font-size: 36px;
+  font-weight: 900;
+
+  /* Changes Here*/
+  margin-bottom: 32px;
+}
+
+.wrapper-ex04 {
+  display: flex;
+  text-align: center;
+  gap: 52px;
+}
+
+.wrapper-ex04 div {
+  width: 200px;
+}
+
+/* A common 'modal' style --------------------------*/
+
+.exercise05 {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  /* I'll give you this one for free lol */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Changes Here*/
+}
+.exercise05 .modal {
+  background: white;
+  width: 480px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+
+  /* Changes Here*/
+  display: flex;
+  padding: 10px;
+  margin-top: 16px;
+
+}
+
+.exercise05 .icon-05{
+    margin-right: 16px;
+}
+
+.exercise05 .icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Changes Here*/
+
+}
+
+.exercise05 .wrapper-ex06{
     display: flex;
-    text-align: center;
-    gap: 52px;
-  }
+    flex-direction: column;
+    gap: 4px;
+}
 
-  .wrapper-ex04 div {
-    width: 200px;
-  }
-  
+.exercise05 .header-06{
+    display: flex;
+    align-items: center;
+}
+
+.exercise05 .header{
+    margin-right: auto;
+}
+
+.exercise05 .close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.exercise05 .button-06{
+    padding-top: 8px;
+}
+
+.exercise05 .button-06 button {
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.exercise05 button.continue {
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+
+.exercise05 button.cancel {
+  background: white;
+  border: 1px solid #ddd;
+  color: royalblue;
+}
