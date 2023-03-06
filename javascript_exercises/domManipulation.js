@@ -27,3 +27,13 @@ paraDiv.textContent = "ME TOO!";
 fatherDiv.appendChild(paraDiv);
 
 container.appendChild(fatherDiv);
+
+//trying the event listener
+
+//btn.addEventListener('click', function (e) {
+//    console.log(e.target);
+//  });
+
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
